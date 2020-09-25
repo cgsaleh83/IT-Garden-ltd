@@ -6120,9 +6120,9 @@ a.badge-dark.focus {
 }
 
 .progress-bar-striped {
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(45deg, rgba(2, 216, 116, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 195, 114, 0.15) 50%, rgba(0, 255, 128, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(2, 216, 116, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(2, 216, 116, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 195, 114, 0.15) 50%, rgba(0, 255, 128, 0.15) 75%, transparent 75%, transparent);
     background-size: 1rem 1rem;
 }
 
@@ -11292,7 +11292,7 @@ h5,
     color: rgba(255, 255, 255, 0.6);
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     opacity: 1 !important;
 }
 
@@ -11379,6 +11379,7 @@ h5,
 .ftco-navbar-light .navbar-nav>.nav-item.cta.cta-colored a {
     border: 1px solid #fff5ed;
     background: #fff5ed !important;
+    letter-spacing: 3px;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
@@ -13277,7 +13278,7 @@ textarea.form-control {
 .ftco-counter .text strong.number {
     font-weight: 600;
     font-size: 50px;
-    color: #d1002c;
+    color: #00d17a;
 }
 
 .ftco-counter .text span {
